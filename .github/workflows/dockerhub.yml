@@ -22,4 +22,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/NOMBRE_IMAGEN:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/webapp-tomcat:latest
